@@ -1,0 +1,9 @@
+import pandas as pd
+data = {'Sr No': [1, 2, 3, 4],
+        'ML Model': ['Model1(All Data)', 'Model2(All Data)','Model1(Reduced Data)','Model2(Reducedl Data)'],
+        'Training Time': ['-', '-','-', '-'],
+        'Training Accuracy': ['6', '1','6', '1'],
+        'Testing Accuracy': ['5', '5','5', '5']}
+
+df = pd.DataFrame(data)
+print(df)
